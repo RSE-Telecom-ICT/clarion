@@ -38,7 +38,7 @@ def pixel():
         #myTeamsMessage.send()  
         return send_file('warning.png', mimetype='image/png',as_attachment=False)
     else:
-        return send_file('safe.png', mimetype='image/png',as_attachment=False) 
+        return send_file('safe.gif', mimetype='image/gif',as_attachment=False) 
 
 def main():
     if not (os.path.exists('cert.pem') and os.path.exists('key.pem')):
